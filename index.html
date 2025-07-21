@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WordMaze SPA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* CSS global yang hanya mempengaruhi struktur utama app.html */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden; /* Tetap pertahankan ini untuk mencegah scroll horizontal global */
+      overflow-y: auto; /* Tetap pertahankan ini untuk scroll vertikal global */
+      background: linear-gradient(135deg, #e0f7fa, #f0f9ff); /* Latar belakang aplikasi utama */
+    }
+
+    #app {
+      text-align: center;
+      width: 100%;
+      position: relative;
+      z-index: 5; /* Pastikan #app berada di atas floating-letters */
+      padding-bottom: 50px; /* Untuk memberi sedikit ruang di bawah konten */
+    }
+
+    #musicControl {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #ffcc70;
+      color: #2c3e50;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 1.3em;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    /* .floating-letters gaya dasarnya dipindahkan ke index.css */
+    /* Karena elemennya ada di app.html, cukup pastikan z-indexnya sesuai di index.css */
+  </style>
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/level-select.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+
+  <audio id="bgMusic" loop autoplay muted>
+    <source src="audio/background_music.mp3" type="audio/mp3">
+    Browser Anda tidak mendukung audio.
+  </audio>
+  <div id="musicControl" title="Toggle Musik 🎵">🔈</div>
+
+  <div id="app"></div>
+
+  <div class="floating-letters" id="letterContainer"></div>
+
+  <script src="js/index.js"></script>
+  <script src="js/level-select.js"></script>
+  <script src="js/game.js"></script>
+
+  <script>
+    const routes = {
+      '': 'spa_parts/index.html',
+      '#index': 'spa_parts/index.html',
+      '#game': 'spa_parts/game.html',
+      '#level-select': 'spa_parts/level-select.html'
+    };
+
+    let allLevelsData = []; // Variabel global untuk menyimpan data level
+
+    const bgMusic = document.getElementById('bgMusic');
+    const musicControl = document.getElementById('musicControl');
+    let musicPlaying = localStorage.getItem('music_enabled') === 'true';
+
+    function tryPlayMusic() {
+        if (musicPlaying && bgMusic.paused) {
+            bgMusic.play().catch(e => console.log("Music play failed:", e));
+        }
+    }
+
+    function tryPauseMusic() {
+        if (bgMusic && !bgMusic.paused) {
+            bgMusic.pause();
+        }
+    }
+
+    async function loadPage() {
+      tryPauseMusic();
+
+      const hash = window.location.hash || '#index';
+      const page = routes[hash] || 'spa_parts/index.html';
+      const res = await fetch(page);
+      const html = await res.text();
+      document.getElementById('app').innerHTML = html;
+      window.scrollTo(0, 0);
+
+      clearFloatingLetters();
+
+      if (hash === '' || hash === '#index') {
+        if (typeof initIndexPage === 'function') {
+          // Menambahkan penundaan sebelum menginisialisasi floating-letters
+          // Ini memberikan waktu bagi konten utama untuk dirender terlebih dahulu.
+          setTimeout(() => {
+            initIndexPage();
+          }, 150); // Penundaan 150 milidetik
+        }
+      } else if (hash === '#level-select') {
+        if (typeof initLevelSelectPage === 'function') initLevelSelectPage(allLevelsData);
+      } else if (hash === '#game') {
+        if (typeof initGamePage === 'function') initGamePage(allLevelsData);
+      }
+
+      tryPlayMusic();
+    }
+
+    function clearFloatingLetters() {
+      const container = document.getElementById('letterContainer');
+      if (container) {
+        container.innerHTML = '';
+      }
+    }
+
+    musicControl.onclick = () => {
+      musicPlaying = !musicPlaying;
+      if (musicPlaying) {
+        bgMusic.muted = false;
+        tryPlayMusic();
+        musicControl.textContent = '🔊';
+      } else {
+        tryPauseMusic();
+        musicControl.textContent = '🔈';
+      }
+      localStorage.setItem('music_enabled', musicPlaying);
+    };
+
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            tryPauseMusic();
+        } else {
+            tryPlayMusic();
+        }
+    });
+
+    window.addEventListener('beforeunload', () => {
+        tryPauseMusic();
+    });
+
+    window.addEventListener('hashchange', loadPage);
+    window.addEventListener('load', async () => {
+      try {
+        const response = await fetch('data/levels.json');
+        if (!response.ok) {
+          throw new Error(`Gagal memuat levels.json: ${response.statusText}`);
+        }
+        allLevelsData = await response.json();
+      } catch (error) {
+        console.error('Error loading levels data:', error);
+        alert('Gagal memuat data level. Pastikan file data/levels.json ada.');
+        return;
+      }
+
+      loadPage();
+
+      if (musicPlaying) {
+          musicControl.textContent = '🔊';
+      } else {
+          musicControl.textContent = '🔈';
+      }
+
+      function startMusicOnceFromLoad() {
+        musicPlaying = true;
+        localStorage.setItem('music_enabled', true);
+
+        bgMusic.muted = false;
+        tryPlayMusic();
+
+        musicControl.textContent = '🔊';
+
+        document.body.removeEventListener('click', startMusicOnceFromLoad);
+        document.body.removeEventListener('touchstart', startMusicOnceFromLoad);
+      }
+
+      // Aktifkan kembali penanganan klik/sentuh untuk memulai musik
+      document.body.addEventListener('click', startMusicOnceFromLoad, { once: true });
+      document.body.addEventListener('touchstart', startMusicOnceFromLoad, { once: true });
+    });
+  </script>
+</body>
+</html>

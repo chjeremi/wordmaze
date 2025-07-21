@@ -1,0 +1,1522 @@
+[
+  {
+    "level": 1,
+    "gridSize": 8,
+    "words": [
+      "LABU",
+      "TIMUN",
+      "JAGUNG",
+      "SAWI",
+      "BAYAM"
+    ]
+  },
+  {
+    "level": 2,
+    "gridSize": 8,
+    "words": [
+      "KACANG",
+      "TOMAT",
+      "TERONG",
+      "WORTEL",
+      "KOL"
+    ]
+  },
+  {
+    "level": 3,
+    "gridSize": 8,
+    "words": [
+      "BROKOLI",
+      "SELADA",
+      "KANGKUNG",
+      "BUNCIS",
+      "BAMBU"
+    ]
+  },
+  {
+    "level": 4,
+    "gridSize": 8,
+    "words": [
+      "CABAI",
+      "BAWANG",
+      "KENTANG",
+      "UBI",
+      "SINGKONG"
+    ]
+  },
+  {
+    "level": 5,
+    "gridSize": 8,
+    "words": [
+      "NANAS",
+      "MANGGA",
+      "SEMANGKA",
+      "PISANG",
+      "MELON"
+    ]
+  },
+  {
+    "level": 6,
+    "gridSize": 8,
+    "words": [
+      "PEPAYA",
+      "DURIAN",
+      "JERUK",
+      "RAMBUTAN",
+      "APEL"
+    ]
+  },
+  {
+    "level": 7,
+    "gridSize": 8,
+    "words": [
+      "ANGGUR",
+      "STROBERI",
+      "CERI",
+      "ALPUKAT",
+      "KIWI"
+    ]
+  },
+  {
+    "level": 8,
+    "gridSize": 8,
+    "words": [
+      "SALAK",
+      "JAMBU",
+      "DUKU",
+      "LEMON",
+      "NAGA"
+    ]
+  },
+  {
+    "level": 9,
+    "gridSize": 8,
+    "words": [
+      "MESIR",
+      "BRAZIL",
+      "CINA",
+      "INDIA",
+      "PRANCIS",
+      "SPANYOL",
+      "ITALIA"
+    ]
+  },
+  {
+    "level": 10,
+    "gridSize": 8,
+    "words": [
+      "RUSIA",
+      "JEPANG",
+      "INDONESIA",
+      "JERMAN",
+      "INGGRIS",
+      "KANADA",
+      "MEKSIKO"
+    ]
+  },
+  {
+    "level": 11,
+    "gridSize": 8,
+    "words": [
+      "KOREA",
+      "THAILAND",
+      "VIETNAM",
+      "BELANDA",
+      "SWEDIA",
+      "NORWEGIA",
+      "DENMARK"
+    ]
+  },
+  {
+    "level": 12,
+    "gridSize": 8,
+    "words": [
+      "ARGENTINA",
+      "CHILI",
+      "PERU",
+      "KOLOMBIA",
+      "VENEZUELA",
+      "TURKI",
+      "YUNANI"
+    ]
+  },
+  {
+    "level": 13,
+    "gridSize": 8,
+    "words": [
+      "JAKARTA",
+      "BANDUNG",
+      "SURABAYA",
+      "YOGYAKARTA",
+      "SEMARANG",
+      "MEDAN",
+      "MAKASSAR"
+    ]
+  },
+  {
+    "level": 14,
+    "gridSize": 8,
+    "words": [
+      "BALI",
+      "LOMBOK",
+      "SUMATERA",
+      "JAWA",
+      "KALIMANTAN",
+      "SULAWESI",
+      "PAPUA"
+    ]
+  },
+  {
+    "level": 15,
+    "gridSize": 8,
+    "words": [
+      "MALUKU",
+      "TIMOR",
+      "FLORES",
+      "SUMBA",
+      "MENTAWAI",
+      "BANGKA",
+      "BELITUNG"
+    ]
+  },
+  {
+    "level": 16,
+    "gridSize": 8,
+    "words": [
+      "KOMODO",
+      "RAJAAMPAT",
+      "WEH",
+      "BERAU",
+      "KARIMUNJAWA",
+      "GILI",
+      "NUSA"
+    ]
+  },
+  {
+    "level": 17,
+    "gridSize": 8,
+    "words": [
+      "GUNUNG",
+      "PANTAI",
+      "DANAU",
+      "SUNGAI",
+      "HUTAN",
+      "GUA",
+      "CURUG",
+      "SAWAH",
+      "KOTA"
+    ]
+  },
+  {
+    "level": 18,
+    "gridSize": 8,
+    "words": [
+      "PULAU",
+      "BUKIT",
+      "LEMBAH",
+      "DESA",
+      "KAMPUNG",
+      "CANDI",
+      "MASJID",
+      "GEREJA",
+      "KUIL",
+      "MUSEUM"
+    ]
+  },
+  {
+    "level": 19,
+    "gridSize": 8,
+    "words": [
+      "SEKOLAH",
+      "KANTOR",
+      "RUMAHSAKIT",
+      "PASAR",
+      "MALL",
+      "HOTEL",
+      "BANDARA",
+      "STASIUN",
+      "TERMINAL",
+      "PELABUHAN"
+    ]
+  },
+  {
+    "level": 20,
+    "gridSize": 8,
+    "words": [
+      "TAMAN",
+      "KEBUNBINATANG",
+      "PERPUSTAKAAN",
+      "STADION",
+      "BIOSKOP",
+      "RESTORAN",
+      "KAFE",
+      "TOKO",
+      "BENGKEL",
+      "POMBENSIN"
+    ]
+  },
+  {
+    "level": 21,
+    "gridSize": 8,
+    "words": [
+      "MEJA",
+      "PINTU",
+      "KIPAS",
+      "LACI",
+      "LAMPU",
+      "LEMARI",
+      "KURSI",
+      "PAPAN",
+      "GORDEN",
+      "JAM"
+    ]
+  },
+  {
+    "level": 22,
+    "gridSize": 8,
+    "words": [
+      "SOFA",
+      "RAK",
+      "JENDELA",
+      "KARPET",
+      "BANTAL",
+      "SELIMUT",
+      "CERMIN",
+      "VAS",
+      "LUKISAN",
+      "PATUNG"
+    ]
+  },
+  {
+    "level": 23,
+    "gridSize": 8,
+    "words": [
+      "JAMDINDING",
+      "KALENDER",
+      "TELEPON",
+      "TV",
+      "KULKAS",
+      "OVEN",
+      "KOMPOR",
+      "MESINCUCI",
+      "DISPENSER",
+      "SETRIKA"
+    ]
+  },
+  {
+    "level": 24,
+    "gridSize": 8,
+    "words": [
+      "GELAS",
+      "PIRING",
+      "SENDOK",
+      "GARPU",
+      "PISAU",
+      "PANCI",
+      "WAJAN",
+      "MANGKOK",
+      "TEKO",
+      "PENGGORENGAN"
+    ]
+  },
+  {
+    "level": 25,
+    "gridSize": 8,
+    "words": [
+      "NASIGORENG",
+      "MIESAYUR",
+      "SATEAYAM",
+      "RENDANG",
+      "SOPBUNTUT",
+      "GULAI",
+      "PEMPEK",
+      "SIOMAY",
+      "BAKSO",
+      "SOTOBETWI"
+    ]
+  },
+  {
+    "level": 26,
+    "gridSize": 8,
+    "words": [
+      "AYAMBAKAR",
+      "IKANBAKAR",
+      "SAYURASAM",
+      "CAPCAY",
+      "NASIKUNING",
+      "NASIDULUR",
+      "BURGER",
+      "PIZZA",
+      "PASTA",
+      "SUSHI"
+    ]
+  },
+  {
+    "level": 27,
+    "gridSize": 8,
+    "words": [
+      "TAKOYAKI",
+      "RAMEN",
+      "LASAGNA",
+      "SPAGETI",
+      "KUE",
+      "ROTI",
+      "DONAT",
+      "ESKRIM",
+      "PUDING",
+      "JAJANAN"
+    ]
+  },
+  {
+    "level": 28,
+    "gridSize": 8,
+    "words": [
+      "CILOK",
+      "CIMOL",
+      "BATAGOR",
+      "CUANKI",
+      "GEPUK",
+      "EMPAL",
+      "ASINAN",
+      "GADOAN",
+      "KETOPRAK",
+      "KERAKTELOR"
+    ]
+  },
+  {
+    "level": 29,
+    "gridSize": 8,
+    "words": [
+      "ANJING",
+      "KUCING",
+      "KAMBING",
+      "KELINCI",
+      "ULAR",
+      "HARIMAU",
+      "BURUNG",
+      "ZEBRA"
+    ]
+  },
+  {
+    "level": 30,
+    "gridSize": 8,
+    "words": [
+      "SINGA",
+      "GAJAH",
+      "BERUANG",
+      "SERIGALA",
+      "HIU",
+      "LUMBALUMBA",
+      "PANDA",
+      "KOALA"
+    ]
+  },
+  {
+    "level": 31,
+    "gridSize": 8,
+    "words": [
+      "KUDA",
+      "SAPI",
+      "AYAM",
+      "BEBEK",
+      "ANGSA",
+      "IKAN",
+      "BUAYA",
+      "KOMODO"
+    ]
+  },
+  {
+    "level": 32,
+    "gridSize": 8,
+    "words": [
+      "MONYET",
+      "GORILA",
+      "ORANGUTAN",
+      "BADAK",
+      "JAGUAR",
+      "CITAH",
+      "RUBI",
+      "FLAMINGO"
+    ]
+  },
+  {
+    "level": 33,
+    "gridSize": 8,
+    "words": [
+      "OJOL",
+      "BUS",
+      "KAPAL",
+      "KERETA",
+      "MOBIL",
+      "HELIKOPTER",
+      "BAJAJ",
+      "PESAWAT",
+      "SEPEDA"
+    ]
+  },
+  {
+    "level": 34,
+    "gridSize": 8,
+    "words": [
+      "TRUK",
+      "TAKSI",
+      "BECAK",
+      "DELMAN",
+      "ANDONG",
+      "PERAHU",
+      "ROKET",
+      "ZEPPELIN"
+    ]
+  },
+  {
+    "level": 35,
+    "gridSize": 8,
+    "words": [
+      "SUBWAY",
+      "TREM",
+      "SCOOTER",
+      "SKATEBOARD",
+      "YACHT",
+      "JETSKI",
+      "PARACHUTE",
+      "BALON"
+    ]
+  },
+  {
+    "level": 36,
+    "gridSize": 8,
+    "words": [
+      "AMBULANS",
+      "DAMKAR",
+      "POLISI",
+      "TANK",
+      "KAPALSELAM",
+      "MOTOR",
+      "DEREK",
+      "FORKLIFT"
+    ]
+  },
+  {
+    "level": 37,
+    "gridSize": 8,
+    "words": [
+      "PETANI",
+      "PENULIS",
+      "POLISI",
+      "GURU",
+      "PENYANYI",
+      "MONTIR",
+      "KOKI",
+      "TENTARA",
+      "DOKTER",
+      "AKTOR"
+    ]
+  },
+  {
+    "level": 38,
+    "gridSize": 8,
+    "words": [
+      "PILOT",
+      "PERAWAT",
+      "ARSITEK",
+      "INSINYUR",
+      "HAKIM",
+      "PENGACARA",
+      "SENIMAN",
+      "NELAYAN",
+      "PROGRAMMER",
+      "DESAINER"
+    ]
+  },
+  {
+    "level": 39,
+    "gridSize": 8,
+    "words": [
+      "AKUNTAN",
+      "MARKETER",
+      "RESEARCHER",
+      "JURNALIS",
+      "FOTOGRAFER",
+      "MODEL",
+      "ATLET",
+      "ILMUWAN",
+      "ASTRONAUT",
+      "BARISTA"
+    ]
+  },
+  {
+    "level": 40,
+    "gridSize": 8,
+    "words": [
+      "SUPIR",
+      "KASIR",
+      "PELAYAN",
+      "SATPAM",
+      "MANAJER",
+      "DIREKTUR",
+      "SEKRETARIS",
+      "RESEPSIONIS",
+      "MEKANIK",
+      "AKUNTAN"
+    ]
+  },
+  {
+    "level": 41,
+    "gridSize": 8,
+    "words": [
+      "HITAM",
+      "COKLAT",
+      "UNGU",
+      "ABUABU",
+      "MERAH",
+      "PUTIH",
+      "BIRU",
+      "HIJAU",
+      "KUNING",
+      "ORANYE"
+    ]
+  },
+  {
+    "level": 42,
+    "gridSize": 8,
+    "words": [
+      "PINK",
+      "EMAS",
+      "PERAK",
+      "MAROON",
+      "TOSCA",
+      "BEIGE",
+      "MAGENTA",
+      "LAVENDER",
+      "SALMON",
+      "OLIVE"
+    ]
+  },
+  {
+    "level": 43,
+    "gridSize": 8,
+    "words": [
+      "CREAM",
+      "INDIGO",
+      "CYAN",
+      "FUCHSIA",
+      "TURQUOISE",
+      "NAVY",
+      "TEAL",
+      "LIME",
+      "KHAKI",
+      "BURGUNDY"
+    ]
+  },
+  {
+    "level": 44,
+    "gridSize": 8,
+    "words": [
+      "VIOLET",
+      "BRONZE",
+      "PLATINUM",
+      "COBALT",
+      "CRIMSON",
+      "CORAL",
+      "MINT",
+      "MUSTARD",
+      "PEACH",
+      "TAN"
+    ]
+  },
+  {
+    "level": 45,
+    "gridSize": 8,
+    "words": [
+      "TANGAN",
+      "PUNGGUNG",
+      "TELINGA",
+      "RAMBUT",
+      "PERUT",
+      "KAKI",
+      "MATA",
+      "HIDUNG",
+      "MULUT",
+      "JARI"
+    ]
+  },
+  {
+    "level": 46,
+    "gridSize": 8,
+    "words": [
+      "LEHER",
+      "DADA",
+      "BAHU",
+      "LENGAN",
+      "SIKU",
+      "LUTUT",
+      "BETIS",
+      "PAHA",
+      "KULIT",
+      "OTAK"
+    ]
+  },
+  {
+    "level": 47,
+    "gridSize": 8,
+    "words": [
+      "HATI",
+      "JANTUNG",
+      "PARUPARU",
+      "GINJAL",
+      "LIMPA",
+      "LAMBUNG",
+      "USUS",
+      "TENGKORAK",
+      "GIGI",
+      "LIDAH"
+    ]
+  },
+  {
+    "level": 48,
+    "gridSize": 8,
+    "words": [
+      "PIPI",
+      "DAGO",
+      "BIBIR",
+      "ALIS",
+      "BULUMATA",
+      "DAGU",
+      "TUMIT",
+      "PERGELANGAN",
+      "KENING",
+      "WAJAH"
+    ]
+  },
+  {
+    "level": 49,
+    "gridSize": 8,
+    "words": [
+      "STIKER",
+      "PENGGARIS",
+      "PULPEN",
+      "KRAYON",
+      "PENGHAPUS",
+      "PENSIL",
+      "BUKU",
+      "SPIDOL",
+      "MAP",
+      "GUNTING"
+    ]
+  },
+  {
+    "level": 50,
+    "gridSize": 8,
+    "words": [
+      "STABILO",
+      "TIPEX",
+      "KOMPAS",
+      "BUSUR",
+      "JANGKA",
+      "KALKULATOR",
+      "ATLAS",
+      "GLOBE",
+      "KAMUS",
+      "NOTES"
+    ]
+  },
+  {
+    "level": 51,
+    "gridSize": 8,
+    "words": [
+      "POSTIT",
+      "KLIP",
+      "HECTER",
+      "ISIHECTER",
+      "LAKBAN",
+      "LEM",
+      "KERTAS",
+      "AMPLOP",
+      "CAP",
+      "RAUTAN"
+    ]
+  },
+  {
+    "level": 52,
+    "gridSize": 8,
+    "words": [
+      "FOLDER",
+      "BINDER",
+      "SAKLAR",
+      "PAPANJALAN",
+      "TAS",
+      "KOTAKPENSIL",
+      "BOTOLMINUM",
+      "PENGGALIS",
+      "PERAUT",
+      "SPIDOLPERMANEN"
+    ]
+  },
+  {
+    "level": 53,
+    "gridSize": 8,
+    "words": [
+      "SEPULUH",
+      "DUAPULUH",
+      "TIGAPULUH",
+      "EMPATPULUH",
+      "LIMAPULUH",
+      "ENAMPULUH",
+      "TUJUHPULUH",
+      "DELAPANPULUH",
+      "SEMBILANPULUH",
+      "SERATUS"
+    ]
+  },
+  {
+    "level": 54,
+    "gridSize": 8,
+    "words": [
+      "SENIN",
+      "SELASA",
+      "RABU",
+      "KAMIS",
+      "JUMAT",
+      "SABTU",
+      "MINGGU",
+      "JANUARI",
+      "FEBRUARI",
+      "MARET"
+    ]
+  },
+  {
+    "level": 55,
+    "gridSize": 8,
+    "words": [
+      "APRIL",
+      "MEI",
+      "JUNI",
+      "JULI",
+      "AGUSTUS",
+      "SEPTEMBER",
+      "OKTOBER",
+      "NOVEMBER",
+      "DESEMBER",
+      "TAHUN"
+    ]
+  },
+  {
+    "level": 56,
+    "gridSize": 8,
+    "words": [
+      "PAGI",
+      "SIANG",
+      "SORE",
+      "MALAM",
+      "HARI",
+      "BULAN",
+      "MUSIM",
+      "PANAS",
+      "HUJAN",
+      "DINGIN"
+    ]
+  },
+  {
+    "level": 57,
+    "gridSize": 8,
+    "words": [
+      "CINTA",
+      "KASIH",
+      "SAYANG",
+      "BAHAGIA",
+      "SEDANG",
+      "MARAH",
+      "TAKUT",
+      "SENANG",
+      "CEMBURU",
+      "SEDIH"
+    ]
+  },
+  {
+    "level": 58,
+    "gridSize": 8,
+    "words": [
+      "BERANI",
+      "MALU",
+      "SABAR",
+      "IKHLAS",
+      "JUJUR",
+      "SETIA",
+      "BIJAK",
+      "RAKUS",
+      "IRI",
+      "DENGKI"
+    ]
+  },
+  {
+    "level": 59,
+    "gridSize": 8,
+    "words": [
+      "AIR",
+      "API",
+      "TANAH",
+      "UDARA",
+      "BATU",
+      "PASIR",
+      "KAYU",
+      "BESI",
+      "EMAS",
+      "PERAK"
+    ]
+  },
+  {
+    "level": 60,
+    "gridSize": 8,
+    "words": [
+      "TEMBAGA",
+      "ALUMUNIUM",
+      "PLASTIK",
+      "KACA",
+      "KARET",
+      "KATUN",
+      "SUTRA",
+      "WOL",
+      "KULIT",
+      "DAUN"
+    ]
+  },
+  {
+    "level": 61,
+    "gridSize": 8,
+    "words": [
+      "SEPEDA",
+      "MOTOR",
+      "MOBIL",
+      "BUS",
+      "TRUK",
+      "KERETA",
+      "PESAWAT",
+      "KAPAL",
+      "TAKSI",
+      "OJOL"
+    ]
+  },
+  {
+    "level": 62,
+    "gridSize": 8,
+    "words": [
+      "HELIKOPTER",
+      "BAJAJ",
+      "DELMAN",
+      "ANDONG",
+      "BECAK",
+      "ROKET",
+      "SUBWAY",
+      "TREM",
+      "SCOOTER",
+      "JETSKI"
+    ]
+  },
+  {
+    "level": 63,
+    "gridSize": 8,
+    "words": [
+      "KAMERA",
+      "TELEPON",
+      "LAPTOP",
+      "KOMPUTER",
+      "TELEVISI",
+      "RADIO",
+      "PRINTER",
+      "SCANNER",
+      "SPEAKER",
+      "HEADSET"
+    ]
+  },
+  {
+    "level": 64,
+    "gridSize": 8,
+    "words": [
+      "KEYBOARD",
+      "MOUSE",
+      "LAYAR",
+      "BATU",
+      "CHARGER",
+      "POWERBANK",
+      "FLASHDISK",
+      "HARDDISK",
+      "MODEM",
+      "ROUTER"
+    ]
+  },
+  {
+    "level": 65,
+    "gridSize": 8,
+    "words": [
+      "JERMAN",
+      "SWISS",
+      "AUSTRIA",
+      "BELGIA",
+      "PORTUGAL",
+      "SWEDIA",
+      "NORWEGIA",
+      "DENMARK",
+      "FINLANDIA",
+      "IRLANDIA"
+    ]
+  },
+  {
+    "level": 66,
+    "gridSize": 8,
+    "words": [
+      "MESIR",
+      "MAROKO",
+      "AFRIKA",
+      "NIGERIA",
+      "KENYA",
+      "ETHIOPIA",
+      "ALJAZAIR",
+      "SUDAN",
+      "KONGO",
+      "GHANA"
+    ]
+  },
+  {
+    "level": 67,
+    "gridSize": 8,
+    "words": [
+      "INDIA",
+      "PAKISTAN",
+      "BANGLADESH",
+      "SRILANKA",
+      "NEPAL",
+      "BHUTAN",
+      "MALDIVES",
+      "AFGHANISTAN",
+      "IRAN",
+      "IRAQ"
+    ]
+  },
+  {
+    "level": 68,
+    "gridSize": 8,
+    "words": [
+      "ARAB",
+      "ISRAEL",
+      "YORDANIA",
+      "LEBANON",
+      "SURIAH",
+      "KUWAIT",
+      "QATAR",
+      "BAHRAIN",
+      "UAE",
+      "OMAN"
+    ]
+  },
+  {
+    "level": 69,
+    "gridSize": 8,
+    "words": [
+      "SINGAPURA",
+      "MALAYSIA",
+      "BRUNEI",
+      "FILIPINA",
+      "TIMORLESTE",
+      "KAMBOJA",
+      "LAOS",
+      "MYANMAR",
+      "MONGOLIA",
+      "TAIWAN"
+    ]
+  },
+  {
+    "level": 70,
+    "gridSize": 8,
+    "words": [
+      "AUSTRALIA",
+      "SELULANDIA",
+      "FIJI",
+      "SAMOA",
+      "TONGA",
+      "VANUATU",
+      "KIRIBATI",
+      "NAURU",
+      "PALAU",
+      "TUVALU"
+    ]
+  },
+  {
+    "level": 71,
+    "gridSize": 8,
+    "words": [
+      "AMERIKA",
+      "KANADA",
+      "MEKSIKO",
+      "KUBA",
+      "HAITI",
+      "JAMAICA",
+      "BAHAMAS",
+      "PANAMA",
+      "KOSTARIKA",
+      "HONDURAS"
+    ]
+  },
+  {
+    "level": 72,
+    "gridSize": 8,
+    "words": [
+      "ARGENTINA",
+      "BRAZIL",
+      "CHILI",
+      "KOLOMBIA",
+      "PERU",
+      "VENEZUELA",
+      "BOLIVIA",
+      "ECUADOR",
+      "URUGUAY",
+      "PARAGUAY"
+    ]
+  },
+  {
+    "level": 73,
+    "gridSize": 8,
+    "words": [
+      "BELANDA",
+      "BELGIA",
+      "LUKSEMBURG",
+      "MONAKO",
+      "ANDORRA",
+      "VATIKAN",
+      "SANMARINO",
+      "MALTA",
+      "SIPRUS",
+      "ESLANDIA"
+    ]
+  },
+  {
+    "level": 74,
+    "gridSize": 8,
+    "words": [
+      "CENDAWAN",
+      "JAMUR",
+      "RUMPUT",
+      "LUMUT",
+      "PAKU",
+      "ANGGREK",
+      "MELATI",
+      "MAWAR",
+      "BUNGA",
+      "DAUN"
+    ]
+  },
+  {
+    "level": 75,
+    "gridSize": 8,
+    "words": [
+      "AKAR",
+      "BATANG",
+      "BUAH",
+      "BIJI",
+      "POHON",
+      "PADI",
+      "JAGUNG",
+      "GANDUM",
+      "KACANG",
+      "KAPAS"
+    ]
+  },
+  {
+    "level": 76,
+    "gridSize": 8,
+    "words": [
+      "GULA",
+      "GARAM",
+      "TEPUNG",
+      "MINYAK",
+      "MENTEGA",
+      "SUSU",
+      "KEJU",
+      "TELUR",
+      "DAGING",
+      "SAYUR"
+    ]
+  },
+  {
+    "level": 77,
+    "gridSize": 8,
+    "words": [
+      "TEMPE",
+      "TAHU",
+      "KERUPUK",
+      "SAMBAL",
+      "KECAP",
+      "SAUS",
+      "MAYONAISE",
+      "REMPAH",
+      "CUKA",
+      "MADU"
+    ]
+  },
+  {
+    "level": 78,
+    "gridSize": 8,
+    "words": [
+      "GORENGAN",
+      "BAKWAN",
+      "CILOK",
+      "CIMOL",
+      "TULANG",
+      "KUAH",
+      "ROTI",
+      "KUE",
+      "BISKUIT",
+      "PERMEN"
+    ]
+  },
+  {
+    "level": 79,
+    "gridSize": 8,
+    "words": [
+      "TEH",
+      "KOPI",
+      "SUSU",
+      "JUICE",
+      "SODA",
+      "AIRPUTIH",
+      "SIRUP",
+      "MIEINSTAN",
+      "SARAPAN",
+      "MAKANSIANG"
+    ]
+  },
+  {
+    "level": 80,
+    "gridSize": 8,
+    "words": [
+      "MAKANMALAM",
+      "CEMILAN",
+      "SUPLEMEN",
+      "VITAMIN",
+      "OBAT",
+      "RESEP",
+      "PENGAMAT",
+      "PENCIPTA",
+      "PENELITI",
+      "PENEMU"
+    ]
+  },
+  {
+    "level": 81,
+    "gridSize": 8,
+    "words": [
+      "SENIMAN",
+      "MUSISI",
+      "PENYAIR",
+      "PENARI",
+      "PELUKIS",
+      "PEMAHAT",
+      "FOTOGRAFER",
+      "VIDEOGRAFER",
+      "SUTRADARA",
+      "AKTOR"
+    ]
+  },
+  {
+    "level": 82,
+    "gridSize": 8,
+    "words": [
+      "ATLET",
+      "PELATIH",
+      "WASIT",
+      "SUPORTER",
+      "PEMAIN",
+      "JUARA",
+      "MEDALI",
+      "PIALA",
+      "LOMBA",
+      "TURNAMEN"
+    ]
+  },
+  {
+    "level": 83,
+    "gridSize": 8,
+    "words": [
+      "FISIKA",
+      "KIMIA",
+      "BIOLOGI",
+      "MATEMATIKA",
+      "SEJARAH",
+      "GEOGRAFI",
+      "EKONOMI",
+      "SOSIOLOGI",
+      "PSIKOLOGI",
+      "FILSAFAT"
+    ]
+  },
+  {
+    "level": 84,
+    "gridSize": 8,
+    "words": [
+      "BAHASA",
+      "SASTRA",
+      "SENI",
+      "MUSIK",
+      "OLAHRAGA",
+      "AGAMA",
+      "POLITIK",
+      "HUKUM",
+      "MEDIS",
+      "KOMPUTER"
+    ]
+  },
+  {
+    "level": 85,
+    "gridSize": 8,
+    "words": [
+      "INTERNET",
+      "WEBSITE",
+      "APLIKASI",
+      "SOFTWARE",
+      "HARDWARE",
+      "JARINGAN",
+      "SERVER",
+      "CLOUD",
+      "DATA",
+      "VIRUS"
+    ]
+  },
+  {
+    "level": 86,
+    "gridSize": 8,
+    "words": [
+      "EMAIL",
+      "CHAT",
+      "SOSIALMEDIA",
+      "FORUM",
+      "BLOG",
+      "PODCAST",
+      "STREAMING",
+      "GAME",
+      "EWALLET",
+      "FINTECH"
+    ]
+  },
+  {
+    "level": 87,
+    "gridSize": 8,
+    "words": [
+      "CINCIN",
+      "KALUNG",
+      "GELANG",
+      "ANTING",
+      "JAM",
+      "DOMPET",
+      "TAS",
+      "SEPATU",
+      "SANDAL",
+      "TOPI"
+    ]
+  },
+  {
+    "level": 88,
+    "gridSize": 8,
+    "words": [
+      "KAOS",
+      "KEMEJA",
+      "CELANA",
+      "ROK",
+      "JAKET",
+      "SWEATER",
+      "GAUN",
+      "JILBAB",
+      "SARUNG",
+      "PECI"
+    ]
+  },
+  {
+    "level": 89,
+    "gridSize": 8,
+    "words": [
+      "BONEKA",
+      "MOBILAN",
+      "PESAWATAN",
+      "KERETA",
+      "PUZZLE",
+      "LEGO",
+      "MONOPOLI",
+      "UNO",
+      "KARTU",
+      "DAKOCAN"
+    ]
+  },
+  {
+    "level": 90,
+    "gridSize": 8,
+    "words": [
+      "BOLA",
+      "RAKET",
+      "STICK",
+      "GOLF",
+      "TENIS",
+      "BADMINTON",
+      "BASKET",
+      "VOLI",
+      "FUTSAL",
+      "SEPAK"
+    ]
+  },
+  {
+    "level": 91,
+    "gridSize": 8,
+    "words": [
+      "SAHAM",
+      "OBLIGASI",
+      "REKSADANA",
+      "DEPOSITO",
+      "ASURANSI",
+      "KREDIT",
+      "TABUNGAN",
+      "INVESTASI",
+      "PAJAK",
+      "SUBSIDI"
+    ]
+  },
+  {
+    "level": 92,
+    "gridSize": 8,
+    "words": [
+      "INFLASI",
+      "DEFLASI",
+      "RESESI",
+      "KRISIS",
+      "EKSPOR",
+      "IMPOR",
+      "PRODUKSI",
+      "KONSUMSI",
+      "DISTRIBUSI",
+      "PASAR"
+    ]
+  },
+  {
+    "level": 93,
+    "gridSize": 8,
+    "words": [
+      "PEMEINTAH",
+      "PRESIDEN",
+      "MENTERI",
+      "PARLEMEN",
+      "PEMILU",
+      "DEMOKRASI",
+      "OTORITER",
+      "KOMUNIS",
+      "SOSIALIS",
+      "KAPITALIS"
+    ]
+  },
+  {
+    "level": 94,
+    "gridSize": 8,
+    "words": [
+      "HUKUM",
+      "KEADILAN",
+      "PENGADILAN",
+      "PENJARA",
+      "POLISI",
+      "TENTARA",
+      "JAKSA",
+      "HAKIM",
+      "PENGACARA",
+      "PENCURI"
+    ]
+  },
+  {
+    "level": 95,
+    "gridSize": 8,
+    "words": [
+      "PERANG",
+      "DAMAI",
+      "KONFLIK",
+      "NEGOSIASI",
+      "DIPLOMASI",
+      "PERJANJIAN",
+      "SANKSI",
+      "REVOLUSI",
+      "TERORIS",
+      "MIGRAN"
+    ]
+  },
+  {
+    "level": 96,
+    "gridSize": 8,
+    "words": [
+      "SUMUR",
+      "PERIGI",
+      "GOT",
+      "SELOKAN",
+      "DRAINASE",
+      "IRIGASI",
+      "BENDUNGAN",
+      "WADUK",
+      "KOLAM",
+      "EMPAT"
+    ]
+  },
+  {
+    "level": 97,
+    "gridSize": 8,
+    "words": [
+      "RUMAH",
+      "KOSAN",
+      "APARTEMEN",
+      "KONTRAKAN",
+      "HOTEL",
+      "VILLA",
+      "PONDOK",
+      "GUDANG",
+      "TOKO",
+      "WARUNG"
+    ]
+  },
+  {
+    "level": 98,
+    "gridSize": 8,
+    "words": [
+      "SAJADAH",
+      "MUKENA",
+      "TASBIH",
+      "ALQURAN",
+      "BIBEL",
+      "ROSARIO",
+      "CANDI",
+      "MESJID",
+      "GEREJA",
+      "VIHARA"
+    ]
+  },
+  {
+    "level": 99,
+    "gridSize": 8,
+    "words": [
+      "KUIL",
+      "KLENTENG",
+      "MONUMEN",
+      "PATUNG",
+      "TUGU",
+      "RELIEF",
+      "PRASASTI",
+      "ARCA",
+      "KERAJINAN",
+      "LUKISAN"
+    ]
+  },
+  {
+    "level": 100,
+    "gridSize": 8,
+    "words": [
+      "TARIAN",
+      "LAGU",
+      "CERITA",
+      "NOVEL",
+      "PUISI",
+      "PANTUN",
+      "MAJALAH",
+      "KORAN",
+      "BERITA",
+      "DOKUMEN"
+    ]
+  }
+]

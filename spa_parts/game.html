@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>WordMaze</h1>
+  <div id="levelDisplay"></div>
+  <div id="score">Skor: 0</div>
+  
+  <div id="grid-container" style="position: relative; display: inline-block;">
+    <div id="grid"></div>
+    <div id="selectionOverlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+    <div id="currentDragLine" style="position: absolute; background-color: rgba(41, 128, 185, 0.7); height: 5px; transform-origin: left center; pointer-events: none; display: none; z-index: 10;"></div>
+  </div>
+
+  <div id="word-list">
+    <h3>Kata yang harus ditemukan:</h3>
+    <ul id="words"></ul>
+  </div>
+
+  <button id="nextLevelBtn" style="display: none">Lanjut ke Level Berikutnya</button>
+  <br/>
+  <button id="logout">Logout</button>
+</div>

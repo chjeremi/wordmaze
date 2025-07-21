@@ -1,0 +1,62 @@
+/* css/level-select.css */
+
+/* Tambahkan gaya ini untuk container di halaman level-select */
+.container {
+  text-align: center;
+  padding: 20px; /* Padding di sekitar konten */
+  max-width: 800px; /* Batasi lebar maksimum kontainer */
+  margin: 20px auto; /* Pusatkan kontainer secara horizontal */
+  background-color: rgba(255, 255, 255, 0.3); /* Latar belakang transparan */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Pastikan padding termasuk dalam lebar/tinggi */
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px; /* Jarak bawah untuk judul */
+}
+
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Kolom responsif, min 80px */
+  gap: 15px; /* Jarak antar tombol level */
+  padding: 0 10px; /* Sedikit padding di dalam grid agar tombol tidak menempel tepi */
+  /* max-width: 600px; <--- Hapus ini jika kontainer sudah punya max-width */
+  /* margin: 20px auto; <--- Hapus ini jika kontainer sudah punya margin auto */
+  /* background-color: #f7f9fc; <--- Latar belakang dipindahkan ke .container */
+  /* border-radius: 15px; <--- Dipindahkan ke .container */
+  /* box-shadow: 0 4px 15px rgba(0,0,0,0.1); <--- Dipindahkan ke .container */
+}
+
+.level-btn {
+  padding: 15px 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: white; /* Default text color for all buttons */
+  background-color: #2980b9; /* Biru - Warna default untuk level yang bisa dimainkan */
+}
+
+/* Hover effect for active/clickable buttons */
+.level-btn:not([disabled]):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Style for completed levels (Abu-abu) */
+.level-btn.completed {
+  background-color: #bdc3c7; /* Abu-abu */
+  cursor: not-allowed; /* Menunjukkan tidak dapat diklik */
+}
+
+/* Style for disabled levels (Orange - untuk yang belum terbuka/terkunci) */
+.level-btn[disabled] {
+  background-color: #f39c12; /* Orange */
+  cursor: not-allowed;
+  opacity: 0.7; /* Sedikit lebih transparan */
+}
